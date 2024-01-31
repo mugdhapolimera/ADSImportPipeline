@@ -4,7 +4,7 @@ import unittest
 from aip.classic import solr_adapter
 from tests.stubdata import ADSRECORDS
 from adsputils import get_date
-import pdb
+
 class TestSolrAdapter(unittest.TestCase):
     def setUp(self):
         self.maxDiff = None
